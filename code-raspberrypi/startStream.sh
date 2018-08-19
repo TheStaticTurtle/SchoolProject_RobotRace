@@ -1,0 +1,1 @@
+LD_LIBRARY_PATH=/home/pi/STI2D2_ETT_ROBOT/mjpg-streamer/mjpg-streamer-experimental/ /home/pi/STI2D2_ETT_ROBOT/mjpg-streamer/mjpg-streamer-experimental/mjpg_streamer -i "input_raspicam.so -fps 30 -q 50 -x 365 -y 240" -o "output_http.so -p 9000 -w /home/pi/STI2D2_ETT_ROBOT/mjpg-streamer/mjpg-streamer-experimental/www"
